@@ -8,7 +8,7 @@ pipeline {
   stages {
     stage('Cloning Git') {
       steps {
-        git 'https://git.version1.com/scm/scp/kubernetes-innovation.git'
+        git 'https://github.com/dailycodemode/ves1.git'
       }
     }
     stage('Building image') {
